@@ -1,0 +1,15 @@
+$main-txt: #2f2f2f;
+$alt-text: #565e66;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  // width: 100%;
+  overflow-x: hidden;
+}

@@ -1,0 +1,116 @@
+.form-section {
+  // max-height: 644px;
+  width: 100%;
+  background-color: #274291;
+  background-image: url("./../../images/circles_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  .wrapper {
+    // background: url("./../../images/circles_bg.png") no-repeat top;
+    // background-size: contain;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .form-heading {
+      color: #fff;
+      font-family: "Hind", sans-serif;
+      font-weight: 600;
+    }
+
+    .call-text {
+      padding-bottom: 47px;
+      font-size: 18px;
+      color: #fff;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}
+
+form {
+  padding: 10px;
+  max-width: 952px;
+  width: 952px;
+  align-self: center;
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      margin: 8px 9px;
+      height: 45px;
+      padding: 5px 15px;
+      border-radius: 5px;
+      outline: none;
+      border: none;
+      color: $alt-text;
+      font-size: 16px;
+    }
+
+    textarea {
+      min-height: 125px;
+      font-family: "Roboto", sans-serif;
+    }
+
+    select {
+      appearance: none;
+      background: url("./../../images/arrow.svg") 96% / 5% no-repeat #fff;
+      background-size: auto;
+    }
+  }
+
+  input[type="submit"] {
+    margin: 0 auto;
+    outline: none;
+    background-color: #35a8e0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    display: block;
+    cursor: pointer;
+    padding: 20px 57px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    letter-spacing: 2px;
+
+    &:hover {
+      background-color: #2b9bd2;
+      transform: translateY(-5px);
+    }
+
+    &:active {
+      transform: translateY(5px);
+    }
+  }
+
+  input[type="checkbox"] {
+    margin: 1px 5px 0 0;
+  }
+}
+
+.label-bottom {
+  display: inline-flex;
+  font-size: 14px;
+  color: #fff;
+  margin: 32px;
+  line-height: 15px;
+
+  a {
+    color: #35a8e0;
+    text-decoration: none;
+  }
+}

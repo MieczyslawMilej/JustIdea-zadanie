@@ -1,0 +1,155 @@
+@media screen and (max-width: 1350px) {
+  .circle-container {
+    @include distribute-on-circle(12, 497px, 70px, false);
+    font-size: 13px;
+
+    a::after {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .circle-container {
+    @include distribute-on-circle(12, 400px, 60px, false);
+    font-size: 11px;
+
+    a::after {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .circle-container {
+    @include distribute-on-circle(12, 350px, 50px, false);
+    font-size: 11px;
+
+    a::after {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .gear-text {
+    transform: translate(-15%, -50%);
+
+    &.left {
+      transform: translate(-115%, -50%);
+    }
+    &.top {
+      transform: translate(-50%, -200%);
+    }
+
+    &.bottom {
+      transform: translate(-50%, 100%);
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  form {
+    width: 600px;
+
+    .row {
+      flex-wrap: wrap;
+    }
+  }
+
+  .circle-container {
+    @include distribute-on-circle(12, 300px, 40px, false);
+    font-size: 9px;
+
+    a::after {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .wrapper {
+    padding: 0;
+    text-align: left;
+
+    .main-heading-wrapper {
+      background-color: #274291;
+
+      .main-heading {
+        padding: 20px 0 10px 20px;
+        color: #e9e9e9;
+      }
+    }
+
+    .main-subheading-wrapper {
+      background-color: #35a8e0;
+
+      .main-subheading {
+        color: #e9e9e9;
+        padding: 10px 10px 10px 20px;
+        letter-spacing: 1px;
+        line-height: 160%;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .circle-container {
+    color: #000;
+    padding: 20px;
+    min-height: 650px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: none;
+    border-radius: 0%;
+    background-image: none;
+    margin: 0 0 50px 0;
+    font-size: 16px;
+
+    > .link-box {
+      position: relative;
+      transform: none;
+      top: 0;
+      left: 0;
+      margin-left: 0;
+
+      .box {
+        .gear-text {
+          text-align: left;
+          transform: translate(0% -50%);
+          padding-left: 50px;
+          width: 300px;
+          white-space: normal;
+        }
+      }
+    }
+  }
+
+  .gear-text {
+    transform: none;
+
+    &.left {
+      transform: none;
+    }
+    &.top {
+      transform: none;
+    }
+
+    &.bottom {
+      transform: none;
+    }
+  }
+  .form-section {
+    padding-top: 30px;
+
+    .wrapper {
+      text-align: center;
+    }
+
+    form {
+      max-width: 360px;
+    }
+  }
+}
