@@ -2,14 +2,12 @@
   // max-height: 644px;
   width: 100%;
   background-color: #274291;
-  background-image: url("./../../images/circles_bg.png");
+  background-image: url("./images/circles_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
 
   .wrapper {
-    // background: url("./../../images/circles_bg.png") no-repeat top;
-    // background-size: contain;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -65,7 +63,7 @@ form {
 
     select {
       appearance: none;
-      background: url("./../../images/arrow.svg") 96% / 5% no-repeat #fff;
+      background: url("./images/arrow.svg") 96% / 5% no-repeat #fff;
       background-size: auto;
     }
   }

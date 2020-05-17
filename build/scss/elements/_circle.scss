@@ -35,7 +35,7 @@
 
         &::after {
           position: absolute;
-          background-image: url("./../../images/icon (#{$i}).png");
+          background-image: url("./images/icon (#{$i}).png");
           background-repeat: no-repeat;
           background-position: center;
           background-size: contain;
@@ -77,7 +77,7 @@
   @include distribute-on-circle(12, 597px, 80px, false);
   margin: 8em auto 8em;
   border: 0.09rem solid #d4dbe0;
-  background-image: url("./../../images/gear.svg");
+  background-image: url("./images/gear.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 80%;
